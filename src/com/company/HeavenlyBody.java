@@ -8,7 +8,7 @@ public final class HeavenlyBody {
     private final double orbitalperiod;
     private final Set<HeavenlyBody> satellites;
 
-    public HeavenlyBody(String name, double orbitalperiodn) {
+    public HeavenlyBody(String name, double orbitalperiod) {
         this.name = name;
         this.orbitalperiod = orbitalperiod;
         this.satellites = new HashSet<>();
